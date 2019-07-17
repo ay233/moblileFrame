@@ -1,0 +1,48 @@
+{
+  "name": "rv-control",
+  "version": "0.1.0",
+  "author": "anyao12580233@gmail.com、@163.com",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "axios": "^0.19.0",
+    "core-js": "^2.6.5",
+    "echarts": "^4.2.1",
+    "js-cookie": "^2.2.0",
+    "muse-ui": "^3.0.2",
+    "muse-ui-message": "^0.2.1",
+    "muse-ui-toast": "^0.3.0",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
+    "register-service-worker": "^1.6.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "cssnano-preset-advanced": "^4.0.7",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-plugin-pwa": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
