@@ -8,12 +8,12 @@
               var screenWidth = window.screen.width;
               var winWidth = window.innerWidth;
               var winHeight = window.innerHeight;
-              console.log(
-                  "Windows DPI:" + winDPI +
-                  ";\ruAgent:" + uAgent +
-                  ";\rScreen Width:" + screenWidth +
-                  ";\rScreen Height:" + screenHeight +
-                  ";\rWindow Width:" + winWidth +
-                  ";\rWindow Height:" + winHeight
-              )
+              // console.log(
+              //     "Windows DPI:" + winDPI +
+              //     ";\ruAgent:" + uAgent +
+              //     ";\rScreen Width:" + screenWidth +
+              //     ";\rScreen Height:" + screenHeight +
+              //     ";\rWindow Width:" + winWidth +
+              //     ";\rWindow Height:" + winHeight
+              // )
         }

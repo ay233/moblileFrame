@@ -1,18 +1,33 @@
-.indexPage{
-	height: 100%;
-	.mainContent{
-		width: 100%;
-		height: 100%;
-		background: green;
-		position: absolute;
-		top: 0;
-		left:200px;
-		transition:left .3s linear;
-		.mu-icon{
-			font-size:30px;
-		}
-	}
-	.actmainContent{
-		left:0;
-	}
+.indexPage {
+    height: 100%;
+    .mainContent {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 200px;
+        transition: left .3s linear;
+		background:white;
+        .mu-icon {
+            font-size: 30px;
+        }
+        header{
+        	height: 45px;
+        }
+        .contentBox{
+        	width: 100%;
+        	height: calc(~ "100%-101px");
+        	overflow-y: auto;
+        }
+        footer {
+            position: fixed;
+            height: 56px;
+            width: 375px;
+            bottom: 0;
+        }
+    }
+
+    .actmainContent {
+        left: 0;
+    }
 }
