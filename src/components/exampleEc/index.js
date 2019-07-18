@@ -1,5 +1,6 @@
 // import axios from "@/axios.js"
 // import bus from "@/bus.js";
+import './vwIgnoreCss/example.css';
 export default {
 	data() {
 		return {
@@ -23,7 +24,7 @@ time: undefined,
 		// 指定图表的配置项和数据
         var option = {
             title: {
-                text: 'ECharts 入门示例'
+                text: 'ECharts示例'
             },
             tooltip: {},
             legend: {
