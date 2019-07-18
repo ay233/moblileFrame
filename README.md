@@ -1,5 +1,9 @@
 # rv-control
 
+## author
+"author": "anyao12580233@gmail.com、@163.com",
+```
+
 ## Project setup
 ```
 yarn install
